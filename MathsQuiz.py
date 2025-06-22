@@ -22,7 +22,7 @@ else:
     print("OOPS! WRONG ANSWER")
     score-=1
 
-q1= input("Which of the following is a pythagorean triplet?\n3,4,5\n2,3,4\n7,8,9\n5,6,7\n")
+q1= input("Which of the following is a pythagorean triplet?\nA.(3,4,5)\nB.(2,3,4)\nC.(7,8,9)\nD.(5,6,7)\n")
 
 if q1 == "3,4,5":
     print("CORRECT ANSWER")
