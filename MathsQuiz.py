@@ -24,7 +24,7 @@ else:
 
 q1= input("Which of the following is a pythagorean triplet?\nA.(3,4,5)\nB.(2,3,4)\nC.(7,8,9)\nD.(5,6,7)\n")
 
-if q1 == "3,4,5":
+if q1.upper() == "A":
     print("CORRECT ANSWER")
     score+=2
 else:
